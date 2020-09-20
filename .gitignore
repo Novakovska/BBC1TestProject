@@ -3,3 +3,5 @@
 ################################################################################
 
 /BBC1TestProject/bin/Debug/netcoreapp3.1
+/.vs
+/BBC1TestProject/obj/Debug/netcoreapp3.1
