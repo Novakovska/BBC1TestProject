@@ -18,7 +18,7 @@ namespace BBC1TestProject.PageObjects
         Waits Waits = new Waits(); /// for example
 
         IWebElement yourCoronavirusStoryBtn =>
-            driver.FindElement(By.XPath("//ul[@class='gs-o-list-ui--top-no-border nw-c-nav__secondary-sections']//span[contains(text(), 'Your Coronavirus Stories')]"));
+            driver.FindElement(By.XPath("//ul[contains(@class, 'secondary-sections')]//span[contains(text(), 'Your Coronavirus Stories')]"));
 
         public void ClickOnYourCoronavirusStoryBtn()
         {

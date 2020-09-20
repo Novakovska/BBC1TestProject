@@ -147,16 +147,16 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check The Title Of The Headline Article: US Supreme Court Judge Ruth Bader Ginsbu" +
-            "rg dies")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check The Title Of The Headline Article: UK sets £10,000 fines for self-isolation" +
+            " breaches")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "CheckTitles")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "US Supreme Court Judge Ruth Bader Ginsburg dies")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:headlineText", "US Supreme Court Judge Ruth Bader Ginsburg dies")]
-        public virtual void CheckTheTitleOfTheHeadlineArticle_USSupremeCourtJudgeRuthBaderGinsburgDies()
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "UK sets £10,000 fines for self-isolation breaches")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:headlineText", "UK sets £10,000 fines for self-isolation breaches")]
+        public virtual void CheckTheTitleOfTheHeadlineArticle_UKSets10000FinesForSelf_IsolationBreaches()
         {
 #line 12
-this.CheckTheTitleOfTheHeadlineArticle("US Supreme Court Judge Ruth Bader Ginsburg dies", ((string[])(null)));
+this.CheckTheTitleOfTheHeadlineArticle("UK sets £10,000 fines for self-isolation breaches", ((string[])(null)));
 #line hidden
         }
         
@@ -206,67 +206,69 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check Secondary Article Titles: Obituary: A feminist heroine and cultural icon")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check Secondary Article Titles: Trump says Supreme Court nominee will be a woman")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "CheckTitles")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Obituary: A feminist heroine and cultural icon")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:titles", "Obituary: A feminist heroine and cultural icon")]
-        public virtual void CheckSecondaryArticleTitles_ObituaryAFeministHeroineAndCulturalIcon()
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Trump says Supreme Court nominee will be a woman")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:titles", "Trump says Supreme Court nominee will be a woman")]
+        public virtual void CheckSecondaryArticleTitles_TrumpSaysSupremeCourtNomineeWillBeAWoman()
         {
 #line 21
-this.CheckSecondaryArticleTitles("Obituary: A feminist heroine and cultural icon", ((string[])(null)));
+this.CheckSecondaryArticleTitles("Trump says Supreme Court nominee will be a woman", ((string[])(null)));
 #line hidden
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check Secondary Article Titles: \'Ginsburg was an amazing woman\' - Trump")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check Secondary Article Titles: Judge blocks US attempts to ban China\'s WeChat")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "CheckTitles")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "\'Ginsburg was an amazing woman\' - Trump")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:titles", "\'Ginsburg was an amazing woman\' - Trump")]
-        public virtual void CheckSecondaryArticleTitles_GinsburgWasAnAmazingWoman_Trump()
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Judge blocks US attempts to ban China\'s WeChat")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:titles", "Judge blocks US attempts to ban China\'s WeChat")]
+        public virtual void CheckSecondaryArticleTitles_JudgeBlocksUSAttemptsToBanChinasWeChat()
         {
 #line 21
-this.CheckSecondaryArticleTitles("\'Ginsburg was an amazing woman\' - Trump", ((string[])(null)));
+this.CheckSecondaryArticleTitles("Judge blocks US attempts to ban China\'s WeChat", ((string[])(null)));
 #line hidden
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check Secondary Article Titles: Remembering the trailblazer for women’s rights")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check Secondary Article Titles: Flypast marks Battle of Britain 80th anniversary")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "CheckTitles")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Remembering the trailblazer for women’s rights")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:titles", "Remembering the trailblazer for women’s rights")]
-        public virtual void CheckSecondaryArticleTitles_RememberingTheTrailblazerForWomenSRights()
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Flypast marks Battle of Britain 80th anniversary")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:titles", "Flypast marks Battle of Britain 80th anniversary")]
+        public virtual void CheckSecondaryArticleTitles_FlypastMarksBattleOfBritain80ThAnniversary()
         {
 #line 21
-this.CheckSecondaryArticleTitles("Remembering the trailblazer for women’s rights", ((string[])(null)));
+this.CheckSecondaryArticleTitles("Flypast marks Battle of Britain 80th anniversary", ((string[])(null)));
 #line hidden
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check Secondary Article Titles: Meet the judges on the top US court")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check Secondary Article Titles: Sarcophagi buried for 2,500 years exhumed in Egyp" +
+            "t")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "CheckTitles")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Meet the judges on the top US court")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:titles", "Meet the judges on the top US court")]
-        public virtual void CheckSecondaryArticleTitles_MeetTheJudgesOnTheTopUSCourt()
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Sarcophagi buried for 2,500 years exhumed in Egypt")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:titles", "Sarcophagi buried for 2,500 years exhumed in Egypt")]
+        public virtual void CheckSecondaryArticleTitles_SarcophagiBuriedFor2500YearsExhumedInEgypt()
         {
 #line 21
-this.CheckSecondaryArticleTitles("Meet the judges on the top US court", ((string[])(null)));
+this.CheckSecondaryArticleTitles("Sarcophagi buried for 2,500 years exhumed in Egypt", ((string[])(null)));
 #line hidden
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check Secondary Article Titles: How has Trump\'s Supreme Court changed America?")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check Secondary Article Titles: Runner gives up medal to rival who went wrong way" +
+            "")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "CheckTitles")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "How has Trump\'s Supreme Court changed America?")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:titles", "How has Trump\'s Supreme Court changed America?")]
-        public virtual void CheckSecondaryArticleTitles_HowHasTrumpsSupremeCourtChangedAmerica()
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Runner gives up medal to rival who went wrong way")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:titles", "Runner gives up medal to rival who went wrong way")]
+        public virtual void CheckSecondaryArticleTitles_RunnerGivesUpMedalToRivalWhoWentWrongWay()
         {
 #line 21
-this.CheckSecondaryArticleTitles("How has Trump\'s Supreme Court changed America?", ((string[])(null)));
+this.CheckSecondaryArticleTitles("Runner gives up medal to rival who went wrong way", ((string[])(null)));
 #line hidden
         }
         
@@ -282,7 +284,7 @@ this.CheckSecondaryArticleTitles("How has Trump\'s Supreme Court changed America
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("headlineText", headlineText);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check The Name Of The First Article On SRP", null, tagsOfScenario, argumentsOfScenario);
-#line 37
+#line 36
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -305,13 +307,13 @@ this.ScenarioInitialize(scenarioInfo);
 #line 5
  this.FeatureBackground();
 #line hidden
-#line 39
+#line 38
  testRunner.When("I click on News button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 41
+#line 40
  testRunner.And("I enter Category link of the headline article in Search field", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 43
+#line 42
  testRunner.Then(string.Format("the title of the first article is \"{0}\"", headlineText), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -319,16 +321,15 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check The Name Of The First Article On SRP: Tudur\'s TV Flashback: Series 1: Techn" +
-            "ology")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check The Name Of The First Article On SRP: Weather forecast for the UK")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "CheckTitles")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Tudur\'s TV Flashback: Series 1: Technology")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:headlineText", "Tudur\'s TV Flashback: Series 1: Technology")]
-        public virtual void CheckTheNameOfTheFirstArticleOnSRP_TudursTVFlashbackSeries1Technology()
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Weather forecast for the UK")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:headlineText", "Weather forecast for the UK")]
+        public virtual void CheckTheNameOfTheFirstArticleOnSRP_WeatherForecastForTheUK()
         {
-#line 37
-this.CheckTheNameOfTheFirstArticleOnSRP("Tudur\'s TV Flashback: Series 1: Technology", ((string[])(null)));
+#line 36
+this.CheckTheNameOfTheFirstArticleOnSRP("Weather forecast for the UK", ((string[])(null)));
 #line hidden
         }
     }

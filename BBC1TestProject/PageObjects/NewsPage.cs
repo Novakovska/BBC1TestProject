@@ -19,19 +19,19 @@ namespace BBC1TestProject.PageObjects
         Waits Waits = new Waits(); /// for example
 
         IWebElement coronavirusBtn =>
-        driver.FindElement(By.XPath("//div[contains(@class, 'navigation')]//span[contains(text(), 'Coronavirus')]")); //perf
+        driver.FindElement(By.XPath("//div[contains(@class, 'navigation')]//span[contains(text(), 'Coronavirus')]")); 
 
         IWebElement maybeLaterBtn =>
-        driver.FindElement(By.XPath("//button[@class='sign_in-exit']")); //perf
+        driver.FindElement(By.XPath("//button[@class='sign_in-exit']")); 
 
         IWebElement headlineArticle =>
-        driver.FindElement(By.XPath("//h3[@class='gs-c-promo-heading__title gel-paragon-bold nw-o-link-split__text']"));
+        driver.FindElement(By.XPath("//div[contains(@class, 'block@m')]/div/a/h3[contains(@class, 'promo-heading__title')]"));
 
         IWebElement categoryLink =>
-        driver.FindElement(By.XPath("//div[contains(@class, 'none gs')]/ul//a/span[@aria-hidden='true']")); //perf
+        driver.FindElement(By.XPath("//div[contains(@class, 'none gs')]/ul//a/span[@aria-hidden='true']")); 
 
         IEnumerable <IWebElement> secondaryArticlesList =>
-            driver.FindElements(By.XPath("//div[contains(@class, 'secondary-item')]//h3")); /// perf
+            driver.FindElements(By.XPath("//div[contains(@class, 'secondary-item')]//h3")); 
 
         IWebElement searchField =>
         driver.FindElement(By.XPath("//input[@id='orb-search-q']"));
@@ -70,6 +70,7 @@ namespace BBC1TestProject.PageObjects
         public void Search()
         {
             searchField.SendKeys(GetCategoryLinkText());
+            ClickOnMaybeLaterBtnBtn();
             ClickOnSearchBtn();
 
         }

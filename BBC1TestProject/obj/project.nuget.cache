@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OiGzXY1t9PIk/RkitaJOlO3rJL8RwBtr9j42J7sJ9Ia7ssWvkAGrRgO3Hw6AVHW/IWkh1q99zB8vLWxewex9Bw==",
+  "dgSpecHash": "GKvltt+gy8Zb08LkO6WL/QBl/j5qhgwNc7xRDcy9kG5hpQ0eQVKubTldsxhdxiHsCQPBmYAfMrz7Om1bJt3m0Q==",
   "success": true,
-  "projectFilePath": "D:\\EPAM\\project\\BBC1TestProject\\BBC1TestProject\\BBC1TestProject.csproj",
+  "projectFilePath": "D:\\EPAM\\project\\BBC1TP\\BBC1TestProject\\BBC1TestProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gorky\\.nuget\\packages\\bodi\\1.4.1\\bodi.1.4.1.nupkg.sha512",
     "C:\\Users\\Gorky\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",

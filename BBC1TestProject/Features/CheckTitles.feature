@@ -14,8 +14,8 @@ Scenario Outline: Check The Title Of The Headline Article
     When I click on News button
 	Then the title of the headline article is "<headlineText>"
 	Examples: 
-	| headlineText                                    |
-	| US Supreme Court Judge Ruth Bader Ginsburg dies |
+	| headlineText                                      |
+	| UK sets £10,000 fines for self-isolation breaches |
 
 	@mytag
 Scenario Outline: Check Secondary Article Titles
@@ -24,13 +24,12 @@ Scenario Outline: Check Secondary Article Titles
 	#5
 	Then Then Secondary article titles are: "<titles>"
 	Examples: 
-	| titles                                         |
-	| Obituary: A feminist heroine and cultural icon |
-	| 'Ginsburg was an amazing woman' - Trump        |
-	| Remembering the trailblazer for women’s rights |
-	| Meet the judges on the top US court            |
-	| How has Trump's Supreme Court changed America? |
-	
+	| titles                                             |
+	| Trump says Supreme Court nominee will be a woman   |
+	| Judge blocks US attempts to ban China's WeChat     |
+	| Flypast marks Battle of Britain 80th anniversary   |
+	| Sarcophagi buried for 2,500 years exhumed in Egypt |
+	| Runner gives up medal to rival who went wrong way  |
 
 
 	@mytag
@@ -42,6 +41,5 @@ Scenario Outline: Check The Name Of The First Article On SRP
 	#9
 	Then the title of the first article is "<headlineText>"
 	Examples: 
-	| headlineText                               |
-	| Tudur's TV Flashback: Series 1: Technology |
-	
+	| headlineText                |
+	| Weather forecast for the UK |

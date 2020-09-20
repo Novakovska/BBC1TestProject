@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\EPAM\\project\\BBC1TestProject\\BBC1TestProject\\BBC1TestProject.csproj": {}
+    "D:\\EPAM\\project\\BBC1TP\\BBC1TestProject\\BBC1TestProject.csproj": {}
   },
   "projects": {
-    "D:\\EPAM\\project\\BBC1TestProject\\BBC1TestProject\\BBC1TestProject.csproj": {
+    "D:\\EPAM\\project\\BBC1TP\\BBC1TestProject\\BBC1TestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\EPAM\\project\\BBC1TestProject\\BBC1TestProject\\BBC1TestProject.csproj",
+        "projectUniqueName": "D:\\EPAM\\project\\BBC1TP\\BBC1TestProject\\BBC1TestProject.csproj",
         "projectName": "BBC1TestProject",
-        "projectPath": "D:\\EPAM\\project\\BBC1TestProject\\BBC1TestProject\\BBC1TestProject.csproj",
+        "projectPath": "D:\\EPAM\\project\\BBC1TP\\BBC1TestProject\\BBC1TestProject.csproj",
         "packagesPath": "C:\\Users\\Gorky\\.nuget\\packages\\",
-        "outputPath": "D:\\EPAM\\project\\BBC1TestProject\\BBC1TestProject\\obj\\",
+        "outputPath": "D:\\EPAM\\project\\BBC1TP\\BBC1TestProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gorky\\AppData\\Roaming\\NuGet\\NuGet.Config",
